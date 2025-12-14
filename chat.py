@@ -7,7 +7,7 @@ import json
 API_URL = "https://api.chatanywhere.tech/v1/chat/completions"
 
 # Sizin sağladığınız API Anahtarı
-API_KEY = "Sk-jiv0fLyrXtWIxjLpRiqpBAV5OR1WLYtwMIkaEwh9JYbrK4K3"
+API_KEY = "sk-jiv0fLyrXtWIxjLpRiqpBAV5OR1WLYtwMIkaEwh9JYbrK4K3"
 
 # --- İstek Bilgileri ---
 
@@ -58,3 +58,4 @@ try:
         
 except requests.exceptions.RequestException as e:
     print(f"\nİSTEK HATASI: {e}")
+
